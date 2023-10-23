@@ -13,14 +13,12 @@ public class ApplianceApp {
         AirPods airPods = new AirPods();
         RemoteControlFunc airPodsRc = new AirPodsAdapter(airPods);
 
-        //turn on the appliances
         System.out.println(tvRc.powerOn());
         System.out.println(electricFanRc.powerOn());
         System.out.println(airPodsRc.powerOn());
 
         System.out.println();
 
-        //press button up
         System.out.println(tvRc.pressPlusButton());
         System.out.println(electricFanRc.pressPlusButton());
         System.out.println(airPodsRc.pressPlusButton());
